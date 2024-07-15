@@ -1,4 +1,4 @@
-# ENGCE301 - นาย จิรภัทร แจ่มประเสริฐ
+# ENGCE301 - จิรภัทร แจ่มประเสริฐ ![build status](https://img.shields.io/badge/build-passing-brightgreen) ![stars](https://img.shields.io/github/stars/Jiraphat-DEV/ENGCE301)
 
 ## รายละเอียดนักศึกษา
 - **ชื่อ:** จิรภัทร แจ่มประเสริฐ
