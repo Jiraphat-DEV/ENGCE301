@@ -430,3 +430,13 @@ http://localhost:3001/api/movie/search?search_text=jok
 http://localhost:3001/api/movie/search?search_text=Fight
 
 ![image-25670715152838309](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715152838309.png)
+
+
+
+**เพิ่มเติม**
+
+เพิ่มการ ลบข้อมูล
+
+โดยการปรับปรุง code ของการ search เปลี่ยน sql จาก insert เป็น delete
+
+![image-25670801000056922](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670801000056922.png)
