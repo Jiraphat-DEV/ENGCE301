@@ -142,3 +142,31 @@ git push origin main
 
 ![image-25670801001725212](./assets/image-25670801001725212.png)
 
+
+
+## คำสั้ง git กันลืม
+
+| **คำสั่ง**                      | **คำอธิบาย**                                                | **ตัวอย่างการใช้งาน**                                       |
+| ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- |
+| `git init`                    | สร้างรีโพสิทอรี Git ใหม่ในไดเรกทอรีปัจจุบัน                         | `git init`                                               |
+| `git clone <url>`             | คัดลอกรีโพสิทอรีจากที่ตั้งที่ระบุ                                     | `git clone https://github.com/user/repo.git`             |
+| `git status`                  | แสดงสถานะของไฟล์ในไดเรกทอรี                                  | `git status`                                             |
+| `git add <file>`              | เพิ่มไฟล์ไปยัง staging area เพื่อเตรียมการ commit                 | `git add filename.txt`                                   |
+| `git commit -m <msg>`         | บันทึกการเปลี่ยนแปลงใน staging area ไปยังรีโพสิทอรีพร้อมข้อความอธิบาย | `git commit -m "Add new feature"`                        |
+| `git branch`                  | แสดงรายการสาขาทั้งหมดหรือสร้างสาขาใหม่                          | `git branch` หรือ `git branch new-branch`                 |
+| `git checkout <branch>`       | ย้ายไปยังสาขาที่ระบุ                                            | `git checkout new-branch`                                |
+| `git checkout -b <branch>`    | สร้างสาขาใหม่และย้ายไปสาขานั้น                                  | `git checkout -b new-branch`                             |
+| `git merge <branch>`          | รวมการเปลี่ยนแปลงจากสาขาที่ระบุเข้ามายังสาขาปัจจุบัน                 | `git merge new-branch`                                   |
+| `git remote add <name> <url>` | เพิ่มรีโมตรีโพสิทอรี                                             | `git remote add origin https://github.com/user/repo.git` |
+| `git remote -v`               | แสดงรายชื่อรีโมตรีโพสิทอรี                                       | `git remote -v`                                          |
+| `git fetch <remote>`          | ดึงข้อมูลล่าสุดจากรีโมต แต่ยังไม่รวมเข้ากับสาขาปัจจุบัน                  | `git fetch origin`                                       |
+| `git pull <remote> <branch>`  | ดึงและรวมการเปลี่ยนแปลงจากรีโมตรีโพสิทอรี                         | `git pull origin main`                                   |
+| `git push <remote> <branch>`  | ส่งการเปลี่ยนแปลงไปยังรีโมตรีโพสิทอรี                              | `git push origin main`                                   |
+| `git reset --hard <commit>`   | ย้อนกลับรีโพสิทอรีไปยังสถานะของคอมมิตที่ระบุ                         | `git reset --hard HEAD~1`                                |
+| `git revert <commit>`         | ย้อนกลับการเปลี่ยนแปลงในคอมมิตที่ระบุโดยสร้างคอมมิตใหม่               | `git revert HEAD`                                        |
+| `git rm <file>`               | ลบไฟล์จากรีโพสิทอรีและ staging area                            | `git rm filename.txt`                                    |
+| `git log`                     | แสดงประวัติของคอมมิต                                          | `git log`                                                |
+| `git diff`                    | แสดงความแตกต่างระหว่างการเปลี่ยนแปลง                           | `git diff`                                               |
+| `git stash`                   | บันทึกการเปลี่ยนแปลงชั่วคราวและล้าง staging area                  | `git stash`                                              |
+| `git stash pop`               | ดึงข้อมูลจาก stash กลับมา                                      | `git stash pop`                                          |
+
