@@ -17,7 +17,15 @@
 3. **Lab 3:** ResfulAPI server with NodeJS
    - ไฟล์: `lab3/`
    - รายละเอียด: เบื้องต้นการสร้าง API serivce 
-4. **(.....incoming....)**
+4. **Lab 4:** Reactjs (Front-end) - งานเพิ่ม Movies
+   - ไฟล์: lab4/
+   - รายละเอียด: ใช้ lab3 มาทำเป็นระบบ back-end และนำ ui จาก lab1 มาใช้ทำ front-end
+
+5. **Lab 5:** Git Version Control System
+   - ไฟล์: lab5/
+   - รายละเอียด: วิธีการใช้งาน Git และการ push ไปยัง Github
+
+6. **(.....incoming....)**
 
 ## วิธีการใช้งาน
 1. Clone repository นี้ไปยังเครื่องของคุณ:
