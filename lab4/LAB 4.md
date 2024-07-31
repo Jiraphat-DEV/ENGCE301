@@ -2,15 +2,15 @@
 
 นำ Lab 3 มาใช้งานเป็น back-end
 
-![image-25670731201815577](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731201815577.png)
+![image-25670731201815577](./assets/image-25670731201815577.png)
 
 ทดสอบการทำงานของ API
 
-![image-25670731201957122](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731201957122.png)
+![image-25670731201957122](./assets/image-25670731201957122.png)
 
 และนำ UI ของ lab 1 มาใช้งานเป็น front-end
 
-![image-25670731201842316](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731201842316.png)
+![image-25670731201842316](./assets/image-25670731201842316.png)
 
 แก้ไข package.json แก้ปัญหาในการทำงานเรื่อง version ของ nodejs ทั้งการ start และ build
 
@@ -375,7 +375,7 @@ export default App;
 npm start
 ```
 
-![image-25670731203246481](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731203246481.png)
+![image-25670731203246481](./assets/image-25670731203246481.png)
 
 
 
@@ -385,7 +385,7 @@ npm start
 npm run build
 ```
 
-![image-25670731204922965](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731204922965.png)
+![image-25670731204922965](./assets/image-25670731204922965.png)
 
 **เพิ่มเติม**
 
@@ -490,9 +490,9 @@ export default SearchMovie
 
 ผลการทดลอง
 
-![image-25670731223752500](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731223752500.png)
+![image-25670731223752500](./assets/image-25670731223752500.png)
 
-![image-25670731223810937](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731223810937.png)
+![image-25670731223810937](./assets/image-25670731223810937.png)
 
 แก้ไขการแทรกข้อมูล ==insert data==
 
@@ -518,7 +518,7 @@ export async function createMovie(data) {
 
 ​	ผลการทดลอง
 
-![image-25670731225920737](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731225920737.png)
+![image-25670731225920737](./assets/image-25670731225920737.png)
 
 เพิ่มการลบข้อมูล ==delete data==
 
@@ -683,11 +683,11 @@ export async function deleteMovie(delete_data) {
 
 ​	ผลการทดลอง
 
-![image-25670731235626992](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731235626992.png)
+![image-25670731235626992](./assets/image-25670731235626992.png)
 
 ​	หลังกดปุ่ม delete
 
-![image-25670731235641445](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670731235641445.png)
+![image-25670731235641445](./assets/image-25670731235641445.png)
 
 
 

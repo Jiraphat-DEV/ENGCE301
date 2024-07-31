@@ -4,17 +4,17 @@
 
 ติดตั้ง git และตั้งค่าต่างๆ
 
-![image-25670731205555858](/Users/jiraphat/Desktop/ProjectHub/SD/images/image-25670731205555858.png)
+![image-25670731205555858](./assets/image-25670731205555858.png)
 
 ==STEP2== Github
 
 สมัครบัญชี และสร้าง repositories `ENGCE301`
 
-![image-25670731205725316](/Users/jiraphat/Desktop/ProjectHub/SD/images/image-25670731205725316.png)
+![image-25670731205725316](./assets/image-25670731205725316.png)
 
 ==STEP3== เชื่อมต่อระหว่าง local repositories กับ github repositories
 
-![image-25670731210107345](/Users/jiraphat/Desktop/ProjectHub/SD/images/image-25670731210107345.png)==STEP4== git add และ git comit 
+![image-25670731210107345](./assets/image-25670731210107345-2446837-2446839.png)==STEP4== git add และ git comit 
 
 อย่าลืมเพิ่ม .gitignore เข้าไปในแต่ละไฟล์ของเราด้วย
 
@@ -129,7 +129,7 @@ git add . // คือคำสั้งสำหรับการเพิ่�
 git commit -m "messgae of commit" // คือคำสั้ง commit ไฟล์ที่เรา add โดยแนบข้อความกันลืม
 ```
 
-![image-25670801000830351](/Users/jiraphat/Desktop/ProjectHub/SD/images/image-25670801000830351.png)
+![image-25670801000830351](./assets/image-25670801000830351.png)
 
 ==STEP5== push ไฟล์ขึ้นบน Github
 
@@ -138,7 +138,7 @@ git push <remote> <branch>
 git push origin main
 ```
 
-![image-25670801001633408](/Users/jiraphat/Desktop/ProjectHub/SD/images/image-25670801001633408.png)
+![image-25670801001633408](./assets/image-25670801001633408.png)
 
-![image-25670801001725212](/Users/jiraphat/Desktop/ProjectHub/SD/images/image-25670801001725212.png)
+![image-25670801001725212](./assets/image-25670801001725212.png)
 

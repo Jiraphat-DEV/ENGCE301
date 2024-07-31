@@ -7,7 +7,7 @@ npm install @hapi/hapi
 npm install @hapi/inert
 ```
 
-![image-25670715151728560](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715151728560.png)
+![image-25670715151728560](./assets/image-25670715151728560.png)
 
 สร้างไฟล์ env.js เพื่อเก็บ config ว่าทำงานอยู่ในสภาพแวดล้อมใด
 
@@ -17,7 +17,7 @@ var env = process.env.NODE_ENV || 'development';
 module.exports = env;
 ```
 
-![image-25670715151819479](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715151819479.png)
+![image-25670715151819479](./assets/image-25670715151819479.png)
 
 ปรับปรุง index.js
 
@@ -232,7 +232,7 @@ module.exports = dbconfig;
 npm install mysql
 ```
 
-![image-25670715152126793](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715152126793.png)
+![image-25670715152126793](./assets/image-25670715152126793.png)
 
 สร้าง folder **respository**
 
@@ -415,21 +415,21 @@ nodemon index.js
 
 [http://localhost:3001](http://localhost:3001/)
 
-![image-25670715152720185](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715152720185.png)
+![image-25670715152720185](./assets/image-25670715152720185.png)
 
 http://localhost:3001/api/movie/all
 
-![](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715152814258.png)
+![](./assets/image-25670715152814258.png)
 
 http://localhost:3001/api/movie/search?search_text=jok
 
-![image-25670715152742982](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715152742982.png)
+![image-25670715152742982](./assets/image-25670715152742982.png)
 
 ทดสอบเพิ่มเติมเปลี่ยนชื่อหนัง
 
 http://localhost:3001/api/movie/search?search_text=Fight
 
-![image-25670715152838309](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670715152838309.png)
+![image-25670715152838309](./assets/image-25670715152838309.png)
 
 
 
@@ -439,4 +439,4 @@ http://localhost:3001/api/movie/search?search_text=Fight
 
 โดยการปรับปรุง code ของการ search เปลี่ยน sql จาก insert เป็น delete
 
-![image-25670801000056922](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670801000056922.png)
+![image-25670801000056922](./assets/image-25670801000056922.png)
