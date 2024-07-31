@@ -134,3 +134,11 @@ git commit -m "messgae of commit" // คือคำสั้ง commit ไฟ�
 ==STEP5== push ไฟล์ขึ้นบน Github
 
 ```shell
+git push <remote> <branch>
+git push origin main
+```
+
+![image-25670801001633408](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670801001633408.png)
+
+![image-25670801001725212](/Users/jiraphat/Library/Application Support/typora-user-images/image-25670801001725212.png)
+
