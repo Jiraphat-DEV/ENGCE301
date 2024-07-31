@@ -118,6 +118,35 @@ const init = async () => {
       }
   });
 
+    server.route({
+      method: 'GET',
+      path: '/api/movie/delete',
+      config: {
+          cors: {
+              origin: ['*'],
+              additionalHeaders: ['cache-control', 'x-requested-width']
+          }
+      },
+      handler: async function (request, reply) {
+          var param = request.query;
+          const search_text = param.search_text;
+          //const title = param.title;
+
+          try {
+
+            const responsedata = await Movies.MovieRepo.deleteMovieByTitle(search_text);
+            if (responsedata.error) {
+                return responsedata.errMessage;
+            } else {
+                return responsedata;
+            }
+        } catch (err) {
+            server.log(["error", "home"], err);
+            return err;
+        }
+
+      }
+  });
 
   server.route({
     method: 'POST',
@@ -140,6 +169,8 @@ const init = async () => {
           release_year
         } = request.payload;
 
+        // console.log(request.payload)
+
         //const title = request.payload.title;
         //const genre = request.payload.genre;
 
@@ -157,10 +188,7 @@ const init = async () => {
       }
 
     }
-});
-
-
-
+  });
 
   await server.start();
   console.log('API Server running on %s', server.info.uri);
