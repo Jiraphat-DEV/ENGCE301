@@ -25,7 +25,10 @@
    - ไฟล์: lab5/
    - รายละเอียด: วิธีการใช้งาน Git และการ push ไปยัง Github
 
-6. **(.....incoming....)**
+6. **Lab 6:** Nginx - back-end server for Tier1
+   - ไฟล์: lab6/
+   - รายละเอียด: การติดตั้ง NGINX backend สำหรับการทำ Tier1
+7. **(.....incoming....)**
 
 ## วิธีการใช้งาน
 1. Clone repository นี้ไปยังเครื่องของคุณ:
